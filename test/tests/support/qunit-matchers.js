@@ -1,4 +1,4 @@
-import { buildPatternMatcher } from 'orbit/lib/pattern-matcher';
+import { buildPatternMatcher } from 'orbit-core/lib/pattern-matcher';
 
 QUnit.assert.matchesPattern = function(actual, pattern, message) {
   const isMatch = buildPatternMatcher(pattern);

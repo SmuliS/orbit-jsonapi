@@ -1,7 +1,7 @@
-import Transform from 'orbit/transform';
-import { clone } from 'orbit/lib/objects';
-import { toIdentifier, identity, eqIdentity } from 'orbit/lib/identifiers';
-import { recordDiffs } from 'orbit/lib/operations';
+import Transform from 'orbit-core/transform';
+import { clone } from 'orbit-core/lib/objects';
+import { toIdentifier, identity, eqIdentity } from 'orbit-core/lib/identifiers';
+import { recordDiffs } from 'orbit-core/lib/operations';
 
 export const TransformRequestProcessors = {
   addRecord(source, request) {

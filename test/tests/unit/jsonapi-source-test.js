@@ -1,11 +1,11 @@
-import Orbit from 'orbit';
-import Source from 'orbit/source';
-import { uuid } from 'orbit/lib/uuid';
-import Schema from 'orbit/schema';
-import KeyMap from 'orbit/key-map';
-import Transform from 'orbit/transform';
-import qb from 'orbit/query/builder';
-import { TransformNotAllowed } from 'orbit/lib/exceptions';
+import Orbit from 'orbit-core';
+import Source from 'orbit-core/source';
+import { uuid } from 'orbit-core/lib/uuid';
+import Schema from 'orbit-core/schema';
+import KeyMap from 'orbit-core/key-map';
+import Transform from 'orbit-core/transform';
+import qb from 'orbit-core/query/builder';
+import { TransformNotAllowed } from 'orbit-core/lib/exceptions';
 import {
   addRecord,
   replaceRecord,
@@ -16,7 +16,7 @@ import {
   removeFromHasMany,
   replaceHasMany,
   replaceHasOne
-} from 'orbit/transform/operators';
+} from 'orbit-core/transform/operators';
 import JSONAPISource from 'orbit-jsonapi/jsonapi-source';
 import { InvalidServerResponse } from 'orbit-jsonapi/lib/exceptions';
 import { jsonapiResponse } from 'tests/test-helper';

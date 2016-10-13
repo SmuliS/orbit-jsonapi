@@ -1,7 +1,7 @@
-import { uuid } from 'orbit/lib/uuid';
-import Schema from 'orbit/schema';
-import KeyMap from 'orbit/key-map';
-import { toIdentifier } from 'orbit/lib/identifiers';
+import { uuid } from 'orbit-core/lib/uuid';
+import Schema from 'orbit-core/schema';
+import KeyMap from 'orbit-core/key-map';
+import { toIdentifier } from 'orbit-core/lib/identifiers';
 import JSONAPISerializer from 'orbit-jsonapi/jsonapi-serializer';
 import 'tests/test-helper';
 

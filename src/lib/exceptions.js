@@ -1,4 +1,4 @@
-import { Exception } from 'orbit/lib/exceptions';
+import { Exception } from 'orbit-core/lib/exceptions';
 
 export class InvalidServerResponse extends Exception {
   constructor(message) {

@@ -1,4 +1,4 @@
-import Transform from 'orbit/transform';
+import Transform from 'orbit-core/transform';
 import { getTransformRequests } from 'orbit-jsonapi/lib/transform-requests';
 
 module('OC - JSONAPI - TransformRequests', function() {

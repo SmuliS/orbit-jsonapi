@@ -1,10 +1,10 @@
 /* eslint-disable valid-jsdoc */
-import Orbit from 'orbit';
-import { assert } from 'orbit/lib/assert';
-import Pullable from 'orbit/interfaces/pullable';
-import Pushable from 'orbit/interfaces/pushable';
-import Source from 'orbit/source';
-import { QueryNotAllowed, TransformNotAllowed, ClientError, ServerError, NetworkError } from 'orbit/lib/exceptions';
+import Orbit from 'orbit-core';
+import { assert } from 'orbit-core/lib/assert';
+import Pullable from 'orbit-core/interfaces/pullable';
+import Pushable from 'orbit-core/interfaces/pushable';
+import Source from 'orbit-core/source';
+import { QueryNotAllowed, TransformNotAllowed, ClientError, ServerError, NetworkError } from 'orbit-core/lib/exceptions';
 import JSONAPISerializer from './jsonapi-serializer';
 import { encodeQueryParams } from './lib/query-params';
 import { getQueryRequests, QueryRequestProcessors } from './lib/queries';

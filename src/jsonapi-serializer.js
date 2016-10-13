@@ -1,6 +1,6 @@
-import { isArray, isObject } from 'orbit/lib/objects';
-import { dasherize, camelize } from 'orbit/lib/strings';
-import { parseIdentifier, toIdentifier } from 'orbit/lib/identifiers';
+import { isArray, isObject } from 'orbit-core/lib/objects';
+import { dasherize, camelize } from 'orbit-core/lib/strings';
+import { parseIdentifier, toIdentifier } from 'orbit-core/lib/identifiers';
 
 export default class JSONAPISerializer {
   constructor({ schema, keyMap }) {

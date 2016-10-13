@@ -1,5 +1,5 @@
 /* globals Promise */
-import { isArray } from 'orbit/lib/objects';
+import { isArray } from 'orbit-core/lib/objects';
 
 function serializeOps(o) {
   return isArray(o) ? o.map(r => serializeOp(r)) : serializeOp(o);
